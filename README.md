@@ -94,8 +94,3 @@ git clone https://github.com/adamlean/web-template.git
 ## 📄 License
 
 Free to use, modify, and share.
-
-```
-
-If you want, I can also make a **super-minimal GitHub-friendly version** of this README that’s just a few lines. That would make the repo look clean and easy to scan.
-```
