@@ -69,10 +69,10 @@ add_action('admin_post_custom_form_submit', 'handle_custom_form');
 
 function mytheme_scripts()
 {
-    // Подключаем главный стиль темы
+    // Connecting the main theme style
     wp_enqueue_style('style', get_stylesheet_uri());
 
-    // Можно подключить свой JS
+    // You can connect your own JS
     // wp_enqueue_script('theme-scripts', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'mytheme_scripts');
